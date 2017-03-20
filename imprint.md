@@ -38,7 +38,7 @@ Layout und Gestaltung dieser Präsentation sowie die enthaltenen Informationen s
 
 #### Datenschutz
 
-Wir greifen auf Drittanbieter zurück, um Anzeigen zu schalten, wenn Sie unsere Website besuchen. Diese Unternehmen nutzen möglicherweise Informationen (dies schließt nicht Ihren Namen, Ihre Adresse, E-Mail-Adresse oder Telefonnummer ein) zu Ihren Besuchen dieser und anderer Websites, damit Anzeigen zu Produkten und Diensten geschaltet werden können, die Sie interessieren. Falls Sie mehr über diese Methoden erfahren möchten oder wissen möchten, welche Möglichkeiten Sie haben, damit diese Informationen nicht von den Unternehmen verwendet werden können, klicken Sie bitte hier (link is external).
+Wir greifen auf Drittanbieter zurück, um Anzeigen zu schalten, wenn Sie unsere Website besuchen. Diese Unternehmen nutzen möglicherweise Informationen (dies schließt nicht Ihren Namen, Ihre Adresse, E-Mail-Adresse oder Telefonnummer ein) zu Ihren Besuchen dieser und anderer Websites, damit Anzeigen zu Produkten und Diensten geschaltet werden können, die Sie interessieren. Falls Sie mehr über diese Methoden erfahren möchten oder wissen möchten, welche Möglichkeiten Sie haben, damit diese Informationen nicht von den Unternehmen verwendet werden können, klicken Sie bitte [hier](http://www.google.de/privacy_ads.html) (link is external).
 
 Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
 
@@ -50,4 +50,4 @@ Diese Website benutzt den Webservice zur Traffic-Analyse Google-Analytics, einen
 
 #### Bild-Nachweis
 
-Unsere Bilder beziehen wir von www.pixelio.de (link is external) oder von www.piqs.de (link is external). Die Fotografen und Urheber sind beim Bild vermerkt.
+Unsere Bilder beziehen wir von [www.pixelio.de](http://www.pixelio.de) www.pixelio.de (link is external) oder von [www.piqs.de](http://www.piqs.de) (link is external). Die Fotografen und Urheber sind beim Bild vermerkt.
