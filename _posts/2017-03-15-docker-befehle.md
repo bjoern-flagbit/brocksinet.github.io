@@ -41,3 +41,7 @@ title: Docker Befehle / Spickzettel
 **Befehl in Docker-Image ausführen ohne auf das Image zu gehen**
 
     docker exec -u www-data docker_image_name bash -c 'cd /var/www/magento/src && ./bin/magento setup:static-content:deploy de_DE'
+
+**IP-Adresse eines Docker-Images herausfinden**
+
+    docker inspecht docker_image_name
