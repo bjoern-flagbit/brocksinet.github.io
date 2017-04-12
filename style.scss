@@ -275,6 +275,14 @@ nav {
   border: 1px solid #ddd;
 }
 
+pre {
+  white-space: inherit;
+  display: inline-block;
+  width: 100%;
+  margin: 0px !important;
+  padding: 10px !important;
+}
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
