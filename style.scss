@@ -15,14 +15,13 @@
 
 html {
   font-size: 100%;
+  height: 100%;
 }
 
 body {
   background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
-  height: 100%;
-  padding-bottom:136px;   /* Height of the footer */
 }
 
 .container {
@@ -293,7 +292,6 @@ pre {
   background-color: $lightGray;
   position: relative;
   width: 100%;
-  height: 136px;
   bottom: 0;
 }
 
