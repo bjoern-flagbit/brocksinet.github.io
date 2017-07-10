@@ -28,6 +28,7 @@ body {
   max-width: 1200px;
   padding: 0 10px;
   width: 100%;
+  min-height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -288,7 +289,7 @@ pre {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
-  position: absolute;
+  position: relative;
   width: 100%;
   bottom: 0;
 }
