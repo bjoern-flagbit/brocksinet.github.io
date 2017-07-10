@@ -6,7 +6,7 @@ description: Links about Magento2 resources and nice tutorials
 **Magento2 Links**
 
 [devdocs.magento.com](http://devdocs.magento.com/)
-> Die offizielle Magento2 Online Documentation. Leider werden einige Themen im Details nicht gründlich genug erklärt.
+> Die offizielle Magento2 Online Documentation. Leider werden einige Themen im Detail nicht gründlich genug erklärt.
 
 [Awesome Magento2 Link-List](https://github.com/DavidLambauer/awesome-magento2)
 > Eine super Liste zu Tools und Content rund um Magento2 auf Github.
