@@ -19,13 +19,13 @@ title: PHPStorm in der 64-Bit Variante verwenden
 
 3.  **Neustarten** bzw. sicherstellen das die Variable in der Umgebung gesetzt ist
 
-	> **Tipp fÃ¼r Windows - ohne Neustart:**
+	> **Tipp für Windows - ohne Neustart:**
 	> 
-	> CMD Ã¶ffnen / Command Line
+	> CMD Öffnen / Command Line
 	> 
-	> AusfÃ¼hren: **taskkill /f /im explorer.exe**
+	> Ausführen: **taskkill /f /im explorer.exe**
 	> 
-	> AusfÃ¼hren: **explorer.exe**	
+	> Ausführen: **explorer.exe**	
 
 4.  **PHPStorm** z.B. mit C:\Program Files (x86)\JetBrains\PhpStorm 2016.1.2\bin\PhpStorm64.exe **starten**
 
