@@ -39,3 +39,5 @@ $this->orderRepository->save($order);
 Anstelle von _$oder->save();_ sollte sich also jeder das **\Magento\Sales\Api\OrderRepositoryInterface** anschauen und 
 wie dieses in Magento2 verwendet wird. Das Magento Core Team arbeitet daran, dass nur noch das OrderRepositoryInterface
 in Zukunft Verwendung findet.
+
+Siehe auch Magento2 Docu: [Persistent entities](http://devdocs.magento.com/guides/v2.1/extension-dev-guide/persistent-entities.html)
