@@ -15,7 +15,7 @@ title: PHPStorm in der 64-Bit Variante verwenden
 
 **Sieht dann so aus**
 
-![Java Variables Settings on Windwos](http://www.brocksi.net/images/_posts/phpstorm-jre-java-home-setting-variables.PNG "Java Variables Settings on Windwos")
+![Java Variables Settings on Windwos](https://raw.githubusercontent.com/bjoern-flagbit/brocksinet.github.io/master/images/_posts/phpstorm-jre-java-home-setting-variables.png "Java Variables Settings on Windwos")
 
 3.  **Neustarten** bzw. sicherstellen das die Variable in der Umgebung gesetzt ist
 
