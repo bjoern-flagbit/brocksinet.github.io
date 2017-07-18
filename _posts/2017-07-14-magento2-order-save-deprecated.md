@@ -6,6 +6,7 @@ description: Small post about order save in magento2
 Im Magento2 Core findet man noch einige solcher Code-Stellen:
 
 ```php
+<?php
 $order = $clonedOrder;
 $order->setId(
     null
@@ -29,6 +30,7 @@ Da stellt sich natürlich die Frage wie das nun im Magento2 in Zukunft gemacht w
 
 Vielleicht eher so?
 ```php
+<?php
 $order = $this->orderRepository->get($order->getId());
 $order->setOrderExported(1);
 $returnSimpleXmlObject = $this->readResultOrderXml($result);
