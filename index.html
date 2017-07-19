@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<!--
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
@@ -15,4 +15,70 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
+</div>
+-->
+
+<div class="row">
+  <div class="container">
+  {% for post in site.posts %}
+  {% assign loopindex = forloop.index %}
+  {% assign loopbreak = forloop.index | modulo: 4 %}
+  {% assign cardclass = "card col-xl-3" %}
+
+  {% if loopbreak == 1 or forloop.first %}
+  <div class="card-deck clearfix" style="padding-bottom: 20px">
+  {% endif %}
+
+    <div class="{{ cardclass }}">
+      <div class="card-block">
+        <h1 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      </div>
+    </div>
+
+  <!-- create some empty card blocks -->
+  {% if forloop.last %}
+    {% if loopbreak == 1%}
+    <div class="{{ cardclass }}">
+      <div class="card-block">
+        <h1 class="card-title">&nbsp;</h1>
+      </div>
+    </div>
+    <div class="{{ cardclass }}">
+      <div class="card-block">
+        <h1 class="card-title">&nbsp;</h1>
+      </div>
+    </div>
+    <div class="{{ cardclass }}">
+      <div class="card-block">
+        <h1 class="card-title">&nbsp;</h1>
+      </div>
+    </div>
+    {% endif %}
+    {% if loopbreak == 2%}
+    <div class="{{ cardclass }}">
+      <div class="card-block">
+        <h1 class="card-title">&nbsp;</h1>
+      </div>
+    </div>
+    <div class="{{ cardclass }}">
+      <div class="card-block">
+        <h1 class="card-title">&nbsp;</h1>
+      </div>
+    </div>
+    {% endif %}
+    {% if loopbreak == 3%}
+    <div class="{{ cardclass }}">
+      <div class="card-block">
+        <h1 class="card-title">&nbsp;</h1>
+      </div>
+    </div>
+    {% endif %}
+  {% endif %}
+
+  {% if loopbreak == 0 or forloop.last %}
+  </div>
+  {% endif %}
+
+  {% endfor %}
+  </div>
 </div>
