@@ -19,66 +19,58 @@ layout: default
 -->
 
 <div class="row">
-  <div class="container">
-  {% for post in site.posts %}
-  {% assign loopindex = forloop.index %}
-  {% assign loopbreak = forloop.index | modulo: 4 %}
-  {% assign cardclass = "card col-xl-3" %}
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-9 col-xl-9">
+      <div class="container">
+        {% for post in site.posts %}
+        {% assign loopindex = forloop.index %}
+        {% assign loopbreak = forloop.index | modulo: 3 %}
+        {% assign cardclass = "card col-xl-4" %}
 
-  {% if loopbreak == 1 or forloop.first %}
-  <div class="card-deck clearfix" style="padding-bottom: 20px">
-  {% endif %}
+        {% if loopbreak == 1 or forloop.first %}
+        <div class="card-deck clearfix" style="padding-bottom: 20px">
+          {% endif %}
 
-    <div class="{{ cardclass }}">
-      <div class="card-block">
-        <h1 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      </div>
-    </div>
+          <div class="{{ cardclass }}">
+            <div class="card-block">
+              <h1 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+            </div>
+          </div>
 
-  <!-- create some empty card blocks -->
-  {% if forloop.last %}
-    {% if loopbreak == 1%}
-    <div class="{{ cardclass }}">
-      <div class="card-block">
-        <h1 class="card-title">&nbsp;</h1>
-      </div>
-    </div>
-    <div class="{{ cardclass }}">
-      <div class="card-block">
-        <h1 class="card-title">&nbsp;</h1>
-      </div>
-    </div>
-    <div class="{{ cardclass }}">
-      <div class="card-block">
-        <h1 class="card-title">&nbsp;</h1>
-      </div>
-    </div>
-    {% endif %}
-    {% if loopbreak == 2%}
-    <div class="{{ cardclass }}">
-      <div class="card-block">
-        <h1 class="card-title">&nbsp;</h1>
-      </div>
-    </div>
-    <div class="{{ cardclass }}">
-      <div class="card-block">
-        <h1 class="card-title">&nbsp;</h1>
-      </div>
-    </div>
-    {% endif %}
-    {% if loopbreak == 3%}
-    <div class="{{ cardclass }}">
-      <div class="card-block">
-        <h1 class="card-title">&nbsp;</h1>
-      </div>
-    </div>
-    {% endif %}
-  {% endif %}
+          <!-- create some empty card blocks -->
+          {% if forloop.last %}
+          {% if loopbreak == 1%}
+          <div class="{{ cardclass }}" style="border: 0;">
+            <div class="card-block">
+              <h1 class="card-title">&nbsp;</h1>
+            </div>
+          </div>
+          <div class="{{ cardclass }}" style="border: 0;">
+            <div class="card-block">
+              <h1 class="card-title">&nbsp;</h1>
+            </div>
+          </div>
+          {% endif %}
+          {% if loopbreak == 2%}
+          <div class="{{ cardclass }}" style="border: 0;">
+            <div class="card-block">
+              <h1 class="card-title">&nbsp;</h1>
+            </div>
+          </div>
+          {% endif %}
+          {% endif %}
 
-  {% if loopbreak == 0 or forloop.last %}
-  </div>
-  {% endif %}
+          {% if loopbreak == 0 or forloop.last %}
+        </div>
+        {% endif %}
 
-  {% endfor %}
-  </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+      <a class="twitter-timeline"
+         href="https://twitter.com/BrocksiNet"
+         data-height="1000"
+      >Tweets by BrocksiNet</a>
+      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
 </div>
