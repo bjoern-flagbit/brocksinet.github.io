@@ -1,57 +1,43 @@
 ---
 layout: default
 ---
-<!--
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
--->
-
 <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-9 col-xl-9">
       <div class="container">
         {% for post in site.posts %}
         {% assign loopindex = forloop.index %}
         {% assign loopbreak = forloop.index | modulo: 3 %}
-        {% assign cardclass = "card col-xl-4" %}
+        {% assign cardclass = "card col-xl-4 card-filled" %}
+        {% assign cardclassempty = "card col-xl-4 card-empty" %}
 
         {% if loopbreak == 1 or forloop.first %}
-        <div class="card-deck clearfix" style="padding-bottom: 20px">
+        <div class="card-deck clearfix">
           {% endif %}
 
           <div class="{{ cardclass }}">
+          <a href="{{ site.baseurl }}{{ post.url }}" class="card-link">
             <div class="card-block">
-              <h1 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+              <h1 class="card-title">{{ post.title }}</h1>
             </div>
+          </a>
           </div>
 
           <!-- create some empty card blocks -->
           {% if forloop.last %}
           {% if loopbreak == 1%}
-          <div class="{{ cardclass }}" style="border: 0;">
+          <div class="{{ cardclassempty }}">
             <div class="card-block">
               <h1 class="card-title">&nbsp;</h1>
             </div>
           </div>
-          <div class="{{ cardclass }}" style="border: 0;">
+          <div class="{{ cardclassempty }}">
             <div class="card-block">
               <h1 class="card-title">&nbsp;</h1>
             </div>
           </div>
           {% endif %}
           {% if loopbreak == 2%}
-          <div class="{{ cardclass }}" style="border: 0;">
+          <div class="{{ cardclassempty }}">
             <div class="card-block">
               <h1 class="card-title">&nbsp;</h1>
             </div>
