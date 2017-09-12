@@ -19,8 +19,7 @@ description: Übersicht zu den relevanten Shop-Systemen im Markt (2017).
 * [SAP Hybris](http://www.hybris.com/)
 * [Intershop](http://www.intershop.de/)
 * [Spryker](https://spryker.com/)
-* [xt.Commerce](http://www.xt-commerce.com/)
-  > War bis Version 3 Open Source
+* [xt.Commerce](http://www.xt-commerce.com/) _(War bis Version 3 Open Source)_
 
 ## Software as a Service Shop-System
 * [Shopify](https://www.shopify.com/)
