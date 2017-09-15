@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testing php code for different php versions online
-description: Wie kleinere und mittlere Onlinehändler sich in die Enterprise-Falle begeben.
+description: Online testing tool for php to check behavior of different php versions 
 ---
 Sometimes you have to test your code on different php versions.
 
