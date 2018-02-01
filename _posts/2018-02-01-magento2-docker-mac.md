@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to speed up: Magento2, Docker and High Sierra on mac
+title: How to speed up Magento2, Docker and High Sierra on mac
 description: Improve your development speed by a good setup for magento2!
 ---
 For a long time i was really really really very frustrated because of Docker, Magento2 and High Sierra.
