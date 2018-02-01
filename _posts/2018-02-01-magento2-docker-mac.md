@@ -49,14 +49,15 @@ Our project folder structure looks like this:
 
 ![Docker Example Magento2 Project Folder Structure](https://raw.githubusercontent.com/bjoern-flagbit/brocksinet.github.io/afce34c161d4574b59cb21eecdfd3fa1ddb58787/images/_posts/docker/project-folder-structure.png "Docker Example Magento2 Project Folder Structure")
 
-* Add the docker-sync.yml and docker-compose.mac.yml to your project folder (examples see below)
-* Start docker-sync first (you should be in the project folder, where your docker-sync.yml is)
+Add the docker-sync.yml and docker-compose.mac.yml to your project folder (examples see below)
 
-    	docker-sync start
+Start docker-sync first (you should be in the project folder, where your docker-sync.yml is)
+
+    docker-sync start
     	
-* Start your docker containers with docker-compose
+Start your docker containers with docker-compose
 
-    	docker-compose -f docker-compose.mac.yml up -d 
+    docker-compose -f docker-compose.mac.yml up -d 
     	
 **Example docker-sync.yml**
 
