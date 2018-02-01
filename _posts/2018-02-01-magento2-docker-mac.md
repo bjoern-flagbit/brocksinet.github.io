@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How to speed up Magento2, Docker and High Sierra on mac
-description: Improve your development speed by a good setup for magento2!
+title: FAST Docker development environment with Magento2 on MacBook with High Sierra
+description: Improve your development speed by a good docker setup for magento2!
 ---
 For a long time i was really really really very frustrated because of Docker, Magento2 and High Sierra.
 If you search for that you will find a lot of tutorials how to speed up your development environment. 
@@ -46,6 +46,7 @@ it should output this:
 #### Project configuration with docker-sync and docker-compose
 
 Our project folder structure looks like this:
+
 ![Docker Example Magento2 Project Folder Structure](https://raw.githubusercontent.com/bjoern-flagbit/brocksinet.github.io/afce34c161d4574b59cb21eecdfd3fa1ddb58787/images/_posts/docker/project-folder-structure.png "Docker Example Magento2 Project Folder Structure")
 
 * Add the docker-sync.yml and docker-compose.mac.yml to your project folder (examples see below)
