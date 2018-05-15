@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Spickzettel chmod
-description: 
+title: chmod Spickzettel
+description: Kleine Übersicht zum chmod Befehl in Linux
 ---
 #### Beispiel Ausgabe vom Befehl "ls -l" im Terminal zu einer example.txt Datei
 
@@ -40,10 +40,12 @@ Jeder andere darf ebenfalls lesen, weil 4 = 4 (3. Stelle ist jeder andere).
 
 #### Nummern für chmod Berechtigungen
 
-**7** = 4 + 2 + 1 (read/write/execute | lesen/schreiben/ausführen)  
-**6** = 4 + 2 (read/write | lesen/schreiben)  
-**5** = 4 + 1 (read/execute | lesen/ausführen)  
-**4** = 4 (read | lesen)  
-**3** = 2 + 1 (write/execute | schreiben/ausführen)  
-**2** = 2 (write | schreiben)  
-**1** = 1 (execute | ausführen)  
+**7** = 4 + 2 + 1 (read/write/execute bzw. lesen/schreiben/ausführen)  
+**6** = 4 + 2 (read/write bzw. lesen/schreiben)  
+**5** = 4 + 1 (read/execute bzw. lesen/ausführen)  
+**4** = 4 (read bzw. lesen)  
+**3** = 2 + 1 (write/execute bzw. schreiben/ausführen)  
+**2** = 2 (write bzw. schreiben)  
+**1** = 1 (execute bzw. ausführen)  
+
+Das war's auch schon mit dem Spickzettel.
