@@ -40,12 +40,12 @@ Jeder andere darf ebenfalls lesen, weil 4 = 4 (3. Stelle ist jeder andere).
 
 #### Nummern für chmod Berechtigungen
 
-**7** | 4 + 2 + 1 | read/write/execute bzw. lesen/schreiben/ausführen  
-**6** | 4 + 2 | read/write bzw. lesen/schreiben  
-**5** | 4 + 1 | read/execute bzw. lesen/ausführen  
-**4** | 4 | read bzw. lesen  
-**3** | 2 + 1 | write/execute bzw. schreiben/ausführen    
-**2** | 2 | write bzw. schreiben  
-**1** | 1 | execute bzw. ausführen  
+**7** = | 4 + 2 + 1 | read/write/execute bzw. lesen/schreiben/ausführen  
+**6** = | 4 + 2 | read/write bzw. lesen/schreiben  
+**5** = | 4 + 1 | read/execute bzw. lesen/ausführen  
+**4** = | 4 | read bzw. lesen  
+**3** = | 2 + 1 | write/execute bzw. schreiben/ausführen    
+**2** = | 2 | write bzw. schreiben  
+**1** = | 1 | execute bzw. ausführen  
 
 Das war's auch schon mit dem Spickzettel.
