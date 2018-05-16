@@ -9,7 +9,7 @@ description: Kleine Übersicht zum chmod Befehl in Linux
 
 In dem oben gezeigtem Beispiel gehört die Datei dem User *www-data* und der Gruppe *1000* an.
 
-#### Beispiel Befehl um die Berechtigungen der Datei zu ändern
+#### Beispiel Befehl um die Berechtigungen der Datei zu ändern (Oktal-Modus)
 
 	chmod 644 example.txt
 
@@ -40,12 +40,15 @@ Jeder andere darf ebenfalls lesen, weil 4 = 4 (3. Stelle ist jeder andere).
 
 #### Nummern für chmod Berechtigungen
 
-**7** = |  4 + 2 + 1 |  read/write/execute bzw. lesen/schreiben/ausführen  
-**6** = |  4 + 2 |  read/write bzw. lesen/schreiben  
-**5** = |  4 + 1 |  read/execute bzw. lesen/ausführen  
-**4** = |  4 |  read bzw. lesen  
-**3** = |  2 + 1 |  write/execute bzw. schreiben/ausführen    
-**2** = |  2 |  write bzw. schreiben  
-**1** = |  1 |  execute bzw. ausführen  
+**7** = |  &nbsp;4 + 2 + 1&nbsp; |  read/write/execute bzw. lesen/schreiben/ausführen  
+**6** = |  &nbsp;4 + 2&nbsp; |  read/write bzw. lesen/schreiben  
+**5** = |  &nbsp;4 + 1&nbsp; |  read/execute bzw. lesen/ausführen  
+**4** = |  &nbsp;4&nbsp; |  read bzw. lesen  
+**3** = |  &nbsp;2 + 1&nbsp; |  write/execute bzw. schreiben/ausführen    
+**2** = |  &nbsp;2&nbsp; |  write bzw. schreiben  
+**1** = |  &nbsp;1&nbsp; |  execute bzw. ausführen  
 
 Das war's auch schon mit dem Spickzettel.
+
+Weitere Ressourcen:
+[Wiki Chmod Ubuntuusers.de](https://wiki.ubuntuusers.de/chmod/)
