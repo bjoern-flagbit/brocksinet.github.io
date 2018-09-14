@@ -16,6 +16,9 @@ _Technologies & main features_
 _Time span_  
 03.2018 - ongoing
 
+_Link to project_  
+Not live yet.
+
 ## Alfatraining
 _About_  
 Selling online courses connected with alfaview platform to join course rooms.
