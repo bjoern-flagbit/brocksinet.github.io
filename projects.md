@@ -1,5 +1,5 @@
-# Project vita
-My personal project vita sorted by age (newest  first). The time span is for the main initial project. 
+My personal project vita sorted by age (newest  first).  
+The time span is for the main initial project.  
 Not every project but most of the projects are still customers.
 # Main projects
 ## Aspahltgold
